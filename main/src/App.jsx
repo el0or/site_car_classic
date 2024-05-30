@@ -1,8 +1,10 @@
-import { useState } from 'react'
 import './App.css'
+import Header from './components/Header'
 
 export default function App() {
   return (
-    <div></div>
+    <div className='wrapper'>
+      <Header/>
+    </div>
   )
 }
