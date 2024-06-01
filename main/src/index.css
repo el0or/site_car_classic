@@ -37,8 +37,35 @@ header ul.nav {
 header ul.nav li {
   margin: 10px;
   display: inline-block;
+  cursor: pointer;
 }
 
 header .number-header {
   float: right;
+}
+
+.heading h1 {
+  font-size: 124px;
+  font-weight: 500;
+  line-height: 136.4px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.heading p {
+  float: left;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.heading button {
+  font-family: "Unbounded", sans-serif;
+  background-color: rgb(204, 204, 204);
+  margin-left: 50px;
+  width: 160px;
+  height: 50px;
+  border-radius: 20px;
+  border-width: thin;
+  cursor: pointer;
 }
