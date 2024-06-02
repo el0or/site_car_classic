@@ -1,7 +1,11 @@
-export default function Items() {
+import Item from "./Item";
+
+export default function Items({ itemsList }) {
     return(
-        <div className="">
-            
-        </div>
+        <main>
+            {itemsList.map( el => (
+                <Item item={el} key={el.id} itemsList={itemsList}/>
+            ))}
+        </main>
     )
 }

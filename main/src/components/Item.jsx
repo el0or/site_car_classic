@@ -1,15 +1,9 @@
-export default function Item({ itemsList }) {
+export default function Item({ ...props }) {
     return(
         <div className="item">
-            {itemsList.map(item => (
-                <img key={item.id} src={item.img}/>
-            ))}
-            {itemsList.map(item => (
-                <p key={item.id}>{item.price}</p>
-            ))}
-            {itemsList.map(item => (
-                <h4 key={item.id}>{item.title}</h4>
-            ))}
+              <img src={props.item.img}/>
+              <p>{props.item.price}</p>
+              <h1>{props.item.title}</h1>
         </div>
     )
 }

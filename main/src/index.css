@@ -69,3 +69,38 @@ header .number-header {
   border-width: thin;
   cursor: pointer;
 }
+
+main {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .item {
+  width: 40%;
+  margin: 10px;
+  position: relative;
+}
+
+main .item img {
+  width: 145%;
+
+}
+
+main .item p, .item h1 {
+  position: absolute;
+  color: #FFFFFF;
+}
+
+main .item p {
+  top: 480px;
+  left: 50px;
+  font-size: 19px;
+  font-weight: 100;
+}
+
+main .item h1 {
+  bottom: 60px;
+  left: 50px;
+}
