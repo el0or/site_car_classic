@@ -78,14 +78,13 @@ main {
 }
 
 main .item {
-  width: 40%;
+  width: 48.5%;
   margin: 10px;
   position: relative;
 }
 
 main .item img {
-  width: 145%;
-
+  width: 100%;
 }
 
 main .item p, .item h1 {
@@ -94,13 +93,36 @@ main .item p, .item h1 {
 }
 
 main .item p {
-  top: 480px;
+  top: 370px;
   left: 50px;
   font-size: 19px;
   font-weight: 100;
 }
 
 main .item h1 {
-  bottom: 60px;
+  bottom: 90px;
   left: 50px;
+}
+
+main .item button {
+  position: absolute;
+  margin: 0px 5px;
+  width: 130px;
+  height: 40px;
+  border-radius: 20px;
+  border-width: thin;
+  cursor: pointer;
+  font-family: "Unbounded", sans-serif;
+  bottom: 25px;
+  left: 190px;
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+
+main .item .rent {
+  left: 50px;
+  background: #fff;
+  color: black;
+  border-color: black;
 }
