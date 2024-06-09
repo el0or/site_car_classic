@@ -1,4 +1,5 @@
 import './App.css'
+import DescriptionUs from './components/DescriptionUs';
 import Header from './components/Header'
 import Heading from './components/Heading'
 import Items from './components/Items';
@@ -53,6 +54,7 @@ export default function App(){
       <Header/>
       <Heading/>
       <Items itemsList={itemsList}/>
+      <DescriptionUs/>
     </div>
     )
 }

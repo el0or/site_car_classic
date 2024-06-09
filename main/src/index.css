@@ -126,3 +126,48 @@ main .item .rent {
   color: black;
   border-color: black;
 }
+
+.DescriptionUs{
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.DescriptionUs p {
+  width: 400px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.DescriptionUs span {
+  font-weight: 500;
+  font-size: 100px;
+}
+
+.group_circles {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.group_circles h1 {
+  font-size: 140px;
+  font-weight: 500;
+  line-height: 173.6px;
+  text-align: left;
+}
+
+
+.group_circles p{
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29.76px;
+  text-align: center;
+}
+
+.circles {
+  background-image: url(/img/circle.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
