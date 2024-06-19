@@ -24,6 +24,9 @@ export default function DescriptionUs() {
                     <p>Delighting our clients</p>
                 </div>
             </div>
+            <center>
+                <img src="/img/car.png" className="descriptionImg"/>
+            </center>
         </div>
     )
 }

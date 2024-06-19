@@ -1,8 +1,10 @@
 import './App.css'
 import DescriptionUs from './components/DescriptionUs';
+import Faq from './components/Faq';
 import Header from './components/Header'
 import Heading from './components/Heading'
 import Items from './components/Items';
+import Services from './components/Services';
 
 
 const itemsList = [
@@ -55,6 +57,8 @@ export default function App(){
       <Heading/>
       <Items itemsList={itemsList}/>
       <DescriptionUs/>
+      <Services/>
+      <Faq/>
     </div>
     )
 }
