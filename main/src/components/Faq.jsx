@@ -18,25 +18,25 @@ function ShowDesc() {
                 <ul>
                     <li>
                         <p>Do you offer financing options for purchasing classic cars?</p>
-                        <div className="on-show-desc">+</div>
+                        <div className="on-show-desc" onClick={ShowDesc}>+</div>
                         <div className="show-desc"></div>
                         <hr />
                     </li>
                     <li>
                         <p>Are the showcased cars fully restored or in original condition?</p>
-                        <div className="on-show-desc">+</div>
+                        <div className="on-show-desc" onClick={ShowDesc}>+</div>
                         <div className="show-desc"></div>
                         <hr />
                     </li>
                     <li>
                         <p>Do you assist with shipping for purchased classic cars?</p>
-                        <div className="on-show-desc">+</div>
+                        <div className="on-show-desc" onClick={ShowDesc}>+</div>
                         <div className="show-desc"></div>
                         <hr />
                     </li>
                     <li>
                         <p>Are your vintage cars certified or inspected for authenticity?</p>
-                        <div className="on-show-desc">+</div>
+                        <div className="on-show-desc" onClick={ShowDesc}>+</div>
                         <div className="show-desc"></div>
                         <hr />
                     </li>

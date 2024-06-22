@@ -1,6 +1,8 @@
 import './App.css'
 import DescriptionUs from './components/DescriptionUs';
 import Faq from './components/Faq';
+import FindUs from './components/FindUs';
+import Footer from './components/Footer';
 import Header from './components/Header'
 import Heading from './components/Heading'
 import Items from './components/Items';
@@ -59,6 +61,8 @@ export default function App(){
       <DescriptionUs/>
       <Services/>
       <Faq/>
+      <FindUs/>
+      <Footer/>
     </div>
     )
 }

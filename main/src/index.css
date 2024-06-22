@@ -198,7 +198,7 @@ main .item .rent {
   font-size: 14px;
   font-weight: 500;
   line-height: 17.36px;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .services-list {
@@ -279,4 +279,123 @@ main .item .rent {
   cursor: pointer;
   font-weight: 600;
   transition: transform 500ms ease;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.hpb button {
+  margin-top: 70px;
+  background-color: rgb(204, 204, 204);
+  width: 300px;
+  height: 60px;
+  border-radius: 30px;
+  border-width: thin;
+  cursor: pointer;
+  font-family: Unbounded;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.36px;
+}
+
+.where h1 {
+  font-family: Unbounded;
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 100px;
+}
+
+.hpb h3{
+  margin-top: 15px;
+  font-family: Unbounded;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.hpb p{
+  margin-top: 20px;
+  font-family: Unbounded;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+main iframe {
+  padding-top: 50px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+}
+.footer-right {
+  text-align: right;
+}
+
+.footer-left h1{
+  font-family: Unbounded;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.76px;
+}
+
+.footer-left p {
+  padding-top: 60px;
+  font-family: Unbounded;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+}
+
+.footer-right h1 {
+  font-family: Unbounded;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.footer-right p {
+  margin-top: 60px;
+  font-family: Unbounded;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.footer-center p {
+  margin: 10px 0px;
+  font-family: Unbounded;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.84px;
+}
+
+.hr-footer {
+  margin-top: 60px;
+  border: none;
+  border-top: 0.5px solid rgb(180, 174, 174);
+}
+
+.footer-p {
+  color: #777775;
+  margin-top: 50px;
+  font-family: Unbounded;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  text-align: left;
 }
