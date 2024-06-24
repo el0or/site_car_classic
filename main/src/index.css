@@ -24,6 +24,10 @@ header {
   display: flex;
 }
 
+.head .logo {
+  cursor: pointer;
+}
+
 header .logo {
   font-weight: 600;
   font-size: 20px;
@@ -398,4 +402,22 @@ main iframe {
   font-weight: 300;
   line-height: 14px;
   text-align: left;
+}
+
+.DescriptionWAW{
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.DescriptionWAW p {
+  width: 900px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28.8px;
+}
+
+.DescriptionWAW span {
+  font-weight: 500;
+  font-size: 100px;
 }

@@ -1,4 +1,9 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 export default function Footer() {
+    const navigate = useNavigate();
+
     return(
         <>
             <hr className="hr-footer"/>
@@ -8,10 +13,10 @@ export default function Footer() {
                     <p>Privacy Policies</p>
                 </div>
                 <div class="footer-center">
-                    <p>Cars</p>
-                    <p>How to rent</p>
-                    <p>About Us</p>
-                    <p>Contacts</p>
+                    <p onClick={() => navigate('/Cars')}>Cars</p>
+                    <p onClick={() => navigate('/How-to-rent')}>How to rent</p>
+                    <p onClick={() => navigate('/About-Us')}>About Us</p>
+                    <p onClick={() => navigate('/Contacts')}>Contacts</p>
                 </div>
                 <div class="footer-right">
                     <h1>+1 (701) 581-1331</h1>

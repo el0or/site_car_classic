@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import DescriptionUs from './components/DescriptionUs';
 import Faq from './components/Faq';
@@ -7,62 +8,25 @@ import Header from './components/Header'
 import Heading from './components/Heading'
 import Items from './components/Items';
 import Services from './components/Services';
-
-
-const itemsList = [
-  {
-    id: 1,
-    title: '1957 Chevrolet Corvette',
-    img: '/img/corvette.png',
-    price: '$39 000',
-    button: '14,900 miles',
-  },
-  {
-    id: 2,
-    title: '1960 Toyota 2000GT',
-    img: '/img/toyota.png',
-    price: '$66 700',
-    button: '14,900 miles',
-  },
-  {
-    id: 3,
-    title: '1969 Dodge Charger',
-    img: '/img/charger.png',
-    price: '$39 000',
-    button: '14,900 miles',
-  },
-  {
-    id: 4,
-    title: '1967 Toyota 2000GT',
-    img: '/img/daytona.png',
-    price: '$66 700',
-    button: '14,900 miles',
-  },
-  {
-    id: 5,
-    title: '1967 Toyota 2000GT',
-    img: '/img/pontiac.png',
-    price: '$66 700',
-    button: '14,900 miles',
-  },
-  {
-    id: 6,
-    img: '/img/more_car.png',
-    button: '29 more cars',
-  },
-];
+import ServicesPage from './components/Pages/ServicesPage';
+import Home from './components/Pages/Home';
+import Contacts from './components/Pages/Contacts';
+import AboutUs from './components/Pages/AboutUs';
 
 export default function App(){
   return (
-    <div className='wrapper'>
-      <Header/>
-      <Heading/>
-      <Items itemsList={itemsList}/>
-      <DescriptionUs/>
-      <Services/>
-      <Faq/>
-      <FindUs/>
-      <Footer/>
-    </div>
+    <Router>
+      <div className='wrapper'>
+        <Routes>
+          {/* <Route path="/Cars" element={<Cars />} />
+          <Route path="/How-to-rent" element={<HowToRent />} /> */}
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Contacts" element={<Contacts/>} />
+          <Route path="/home" element={<Home/>} />
+          <Route path="/" element={<Home/>} />
+          <Route path='/ServicesPage' element={<ServicesPage/>}/>
+        </Routes>
+      </div>
+    </Router>
     )
 }
