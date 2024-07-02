@@ -9,7 +9,7 @@ export default function Header() {
             <div className="head">
                 <div className="logo" onClick={() => navigate('/home')}>Cars Classic Autotrader</div>
                 <ul className="nav">
-                    <li onClick={() => navigate('/')}>Cars</li>
+                    <li onClick={() => navigate('/Cars')}>Cars</li>
                     <li onClick={() => navigate('/AboutUs')}>About Us</li>
                     <li onClick={() => navigate('/ServicesPage')}>Services</li>
                     <li onClick={() => navigate('/Contacts')}>Contacts</li>

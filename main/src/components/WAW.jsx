@@ -11,6 +11,7 @@ export default function WAW(){
                     GM Rally wheels with trim rings and centers embrace sturdy 15” BFG Radial T/A tires. Steering is managed manually, while power disc/drum brakes, a front sway bar, and HD shocks contribute to a balanced driving experience.
                 </p>
             </div>
+            <button className="btnWAW">Read reviews</button>
         </div>
     )
 }

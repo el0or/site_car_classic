@@ -14,8 +14,8 @@ export default function Footer() {
                 </div>
                 <div class="footer-center">
                     <p onClick={() => navigate('/Cars')}>Cars</p>
-                    <p onClick={() => navigate('/How-to-rent')}>How to rent</p>
-                    <p onClick={() => navigate('/About-Us')}>About Us</p>
+                    <p onClick={() => navigate('/HowToRent')}>How to rent</p>
+                    <p onClick={() => navigate('/AboutUs')}>About Us</p>
                     <p onClick={() => navigate('/Contacts')}>Contacts</p>
                 </div>
                 <div class="footer-right">
