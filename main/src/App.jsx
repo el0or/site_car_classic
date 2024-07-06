@@ -1,19 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
-import DescriptionUs from './components/DescriptionUs';
-import Faq from './components/Faq';
-import FindUs from './components/FindUs';
-import Footer from './components/Footer';
-import Header from './components/Header'
-import Heading from './components/Heading'
-import Items from './components/Items';
-import Services from './components/Services';
 import ServicesPage from './components/Pages/ServicesPage';
 import Home from './components/Pages/Home';
 import Contacts from './components/Pages/Contacts';
 import AboutUs from './components/Pages/AboutUs';
 import AboutCar from './components/Pages/AboutCar';
 import AllCars from './components/Pages/AllCars';
+import ShippingPage from './components/Pages/ShippingPage';
+import WarPurPage from './components/Pages/WarPurPage';
+import FinancingPage from './components/Pages/FinancingPage';
 
 
 export default function App(){
@@ -23,6 +18,9 @@ export default function App(){
         <Routes>
           <Route path="/home" element={<Home/>} />
           <Route path="/Cars" element={<AllCars/>}/>
+          <Route path='Shipping' element={<ShippingPage/>}/>
+          <Route path='WarPur' element={<WarPurPage/>}/>
+          <Route path='Financing' element={<FinancingPage/>} />
           {/* <Route path="/How-to-rent" element={<HowToRent />} /> */}
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Contacts" element={<Contacts/>} />

@@ -440,6 +440,20 @@ main iframe {
   font-size: 100px;
 }
 
+.btn-price {
+  margin-top: 30px;
+  width: 160px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgb(204, 204, 204);
+  border-width: thin;
+  cursor: pointer;
+  font-family: Unbounded;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.84px;
+}
+
 .btnWAW {
   background-color: #3A3C35;
   width: 300px;
@@ -747,4 +761,48 @@ button.btn:hover {
   line-height: 136.4px;
   margin-bottom: 50px;
   margin-top: 50px;
+}
+
+.ship {
+  padding-top: 60px;
+  font-family: Unbounded;
+  font-size: 124px;
+  font-weight: 500;
+  line-height: 136.4px;
+}
+
+.about-ship {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-ship img {
+  width: 860px;
+  height: 520px;
+}
+
+.p-btn p{
+  width: 900px;
+  height: 360px;
+  font-family: Unbounded;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28.8px;
+  text-align: left;
+  }
+
+.p-btn button {
+  background-color: #3A3C35;
+  width: 300px;
+  height: 44px;
+  border-radius: 30px;
+  border-width: thin;
+  cursor: pointer;
+  font-family: Unbounded;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.36px;
+  color: #fff;
+  margin-top: 115px;
 }
